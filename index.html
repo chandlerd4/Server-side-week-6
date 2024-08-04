@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/dashboard.css"/>
+    <link rel="stylesheet" href="./assets/css/search.css"/>
+</head>
+
+<body>
+    <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
+        <div class="col-12 col-md-3 bg-light p-3">
+          <h1 class="text-primary">Weather Dashboard </h1>
+          <form id="search-form" class="mb-2">
+      
+            <select id="city-list" class="form-input w-100">
+              <option value="" disabled selected>Select a city...</option>
+              <option value="Chicago">Chicago</option>
+              <option value="Atlanta">Atlanta</option>
+              <option value="New York">New York</option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="Houston">Houston</option>
+              <option value="Miami">Miami</option>
+              <option value="Nashville">Nashville</option>
+              <option value="Detroit">Detroit</option>
+            </select>
+            <button class="btn btn-info btn-block">Search</button>
+          </form>
+    
+          
+    
+        
+    
+      <script src="./assets/index.js"></script>
+</body>
+</html>
